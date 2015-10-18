@@ -4,7 +4,7 @@
 var DeployPluginBase = require('ember-cli-deploy-plugin');
 
 module.exports = {
-  name: 'ember-cli-deploy-plugin-git-info'
+  name: 'ember-cli-deploy-git-info',
 
   createDeployPlugin: function(options) {
     var DeployPlugin = DeployPluginBase.extend({

@@ -1,25 +1,4 @@
-# Ember-cli-deploy-plugin-git-info
+# Ember-cli-deploy-git-info
 
-This README outlines the details of collaborating on this Ember addon.
+Adds all the git information that can be found to the deploy context object.
 
-## Installation
-
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
