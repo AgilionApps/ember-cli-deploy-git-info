@@ -26,7 +26,7 @@ module.exports = {
       },
       requiredConfig: [],
 
-      setup: function(context) {
+      prepare: function(context) {
         this.log('Finding git info for commit');
         return execP('git rev-parse --short HEAD').then(function(commit) {
           return RSVP.hash({
