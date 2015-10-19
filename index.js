@@ -42,7 +42,7 @@ module.exports = {
             committerEmail:      execP('git show -s --format=%cE ' + commit),
             author:              execP('git show -s --format=%aN ' + commit),
             authorEmail:         execP('git show -s --format=%aE ' + commit),
-            commiterDate:        execP('git show -s --format=%cd ' + commit)
+            commitDate:          execP('git show -s --format=%cd ' + commit)
           });
         }.bind(this)).then(function(hash) {
           this.log('Git info avaiable in context["git-info"]')
